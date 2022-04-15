@@ -4,7 +4,7 @@ import { Button, Card } from 'react-bootstrap';
 const SingleBreakfast = ({ breakfast }) => {
     const { name, img, price, discription } = breakfast
     return (
-        <div className="container col-sm-12 col-md-2 col-lg-4 mt-5">
+        <div className="container col-sm-12 col-md-6 col-lg-4 mt-5">
             <Card style={{ width: '18rem', backgroundColor: '#473535', padding: '16px'}}>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img":"https://i.ibb.co/LSpVrYV/dinner1.png",
+        "name": "Salad with chicken patto",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "16"
+    },
+    {
+        "id": "2",
+        "img":"https://i.ibb.co/TLHtDfp/dinner2.png",
+        "name": "Fish tikki",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "20"
+    },
+    {
+        "id": "3",
+        "img":"https://i.ibb.co/TLHtDfp/dinner3.png",
+        "name": "Fishi dom",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "14"
+    },
+    {
+        "id": "4",
+        "img":"https://i.ibb.co/9Hv3Lnr/dinner4.png",
+        "name": "Chicken laktu",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "22"
+    },
+    {
+        "id": "5",
+        "img":"https://i.ibb.co/9Hv3Lnr/dinner5.png",
+        "name": "Chicken slice pakku",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "15"
+    },
+    {
+        "id": "6",
+        "img":"https://i.ibb.co/9Hv3Lnr/dinner6.png",
+        "name": "Chicken salad lekku",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "25"
+    }
+]

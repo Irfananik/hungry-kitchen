@@ -8,6 +8,7 @@ import Header from './Pages/Shared/Header/Header';
 import Breakfast from './Pages/Home/Product/Breakfast/Breakfast';
 import Lunch from './Pages/Home/Product/Lunch/Lunch';
 import Dinner from './Pages/Home/Product/Dinner/Dinner';
+import About from './Pages/Home/About/About';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/signup" element={<SignUp/>}></Route>
       </Routes>
+      <About/>
     </div>
   );
 }

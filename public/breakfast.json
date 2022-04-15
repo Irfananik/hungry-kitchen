@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img":"https://i.ibb.co/9Z39Xg1/breakfast1.png",
+        "name": "Egges Lukko",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "19"
+    },
+    {
+        "id": "2",
+        "img":"https://i.ibb.co/wgy2XzW/breakfast2.png",
+        "name": "Breakfast Sandwich",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "16"
+    },
+    {
+        "id": "3",
+        "img":"https://i.ibb.co/yn7rpsx/breakfast3.png",
+        "name": "Baket Chicken",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "20"
+    },
+    {
+        "id": "4",
+        "img":"https://i.ibb.co/yn7rpsx/breakfast3.png",
+        "name": "Bagel and cream chese",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "20"
+    },
+    {
+        "id": "5",
+        "img":"https://i.ibb.co/JHYCfgF/breakfast5.png",
+        "name": "Sandwich with full Breakfast",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "23"
+    },
+    {
+        "id": "6",
+        "img":"https://i.ibb.co/f2VCsvT/breakfast6.png",
+        "name": "Toast egges fried",
+        "discription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": "25"
+    }
+]

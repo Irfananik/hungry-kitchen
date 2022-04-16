@@ -9,22 +9,23 @@ import Breakfast from './Pages/Home/Product/Breakfast/Breakfast';
 import Lunch from './Pages/Home/Product/Lunch/Lunch';
 import Dinner from './Pages/Home/Product/Dinner/Dinner';
 import About from './Pages/Home/About/About';
+import BreakfastDetails from './Pages/Home/Product/Breakfast/BreakfastDetails';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Banner/>
-      <Home/>
+      <Header />
+      <Banner />
+      <Home />
       <Routes>
-        <Route path="/breakfast" element={<Breakfast/>}></Route>
-        <Route path="/breakfast" element={<Breakfast/>}></Route>
-        <Route path="/dinner" element={<Dinner/>}></Route>
-        <Route path="/lunch" element={<Lunch/>}></Route>
-        <Route path="/login" element={<Login/>}></Route>
-        <Route path="/signup" element={<SignUp/>}></Route>
+        <Route path="/breakfast" element={<Breakfast />}></Route>
+        <Route path="/breakfast/:breakfastId" element={<BreakfastDetails/>}></Route>
+        <Route path="/dinner" element={<Dinner />}></Route>
+        <Route path="/lunch" element={<Lunch />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/signup" element={<SignUp />}></Route>
       </Routes>
-      <About/>
+      <About />
     </div>
   );
 }

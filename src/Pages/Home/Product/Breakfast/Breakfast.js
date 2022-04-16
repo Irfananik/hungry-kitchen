@@ -11,7 +11,7 @@ const Breakfast = () => {
     }, [])
     return (
         <div className="container mt-5">
-            <h3 style={{ color: '#E5B429' }}>Our Available Breakfast Menus: <span style={{ color: '#FCF4E0' }}>{breakfasts.length}</span></h3>
+            <h3 className="text-center" style={{ color: '#E5B429' }}>Our Available Breakfast Menus: <span style={{ color: '#FCF4E0' }}>{breakfasts.length}</span></h3>
             <div className="container row">
                 {
                     breakfasts.map(breakfast => <SingleBreakfast key={breakfast.id} breakfast={breakfast} />)

@@ -13,7 +13,7 @@ const SingleLunch = ({lunch}) => {
                         <span style={{ color: '#FCF4E0' }}>{discription}</span>
                         <h6 style={{ color: '#E5B429' }}>Price: ${price}</h6>
                     </Card.Text>
-                    <Button style={{ backgroundColor: '#E5B429' }} variant="primary">Add to cart</Button>
+                    <Button style={{ backgroundColor: '#E5B429' }} variant="primary">See Details</Button>
                 </Card.Body>
             </Card>
         </div>

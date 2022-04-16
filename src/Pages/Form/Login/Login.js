@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import SocilaLogin from '../../SocialLogin/SocilaLogin';
 
 const Login = () => {
+
     const navigate = useNavigate()
 
     const navigateToSignUp = () => {
